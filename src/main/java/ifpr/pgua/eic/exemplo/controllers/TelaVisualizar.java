@@ -15,8 +15,6 @@ import javafx.scene.input.MouseEvent;
 
 public class TelaVisualizar implements Initializable {
 
-    private Veiculo veiculo;
-
     private Estacionamento estacionamento;
 
     @FXML
@@ -27,7 +25,7 @@ public class TelaVisualizar implements Initializable {
 
        @FXML
     void mostrarDetalhes(MouseEvent event) {
-        Veiculo veiculos = lstVeiculos.getSelectionModel().getSelectedItem();
+        Veiculo veiculo = lstVeiculos.getSelectionModel().getSelectedItem();
 
         if(veiculo != null){
             taDetalhes.clear();

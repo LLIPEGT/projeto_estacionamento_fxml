@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="ifpr.pgua.eic.exemplo.controllers.TelaCadastro">
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ifpr.pgua.eic.exemplo.controllers.TelaCadastro">
   <columnConstraints>
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -25,14 +25,14 @@
    <children>
       <Label text="Placa: " />
       <TextField fx:id="tfPlaca" GridPane.columnIndex="1" />
-      <Label text="Modelo: " GridPane.columnIndex="2" />
+      <Label alignment="CENTER" text="Modelo: " GridPane.columnIndex="2" />
       <TextField fx:id="tfModelo" GridPane.columnIndex="3" />
-      <Label text="Placa: " />
-      <Label text="Cor:" GridPane.rowIndex="1" />
-      <Label text="Fabricante: " GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Label alignment="TOP_RIGHT" text="Placa: " textOverrun="CLIP" />
+      <Label alignment="CENTER" text="Cor:" GridPane.rowIndex="1" />
+      <Label alignment="CENTER" text="Fabricante: " GridPane.columnIndex="2" GridPane.rowIndex="1" />
       <TextField fx:id="tfCor" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       <TextField fx:id="tfFabricante" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-      <Label text="Ano de Fabricaçao " GridPane.rowIndex="2" />
+      <Label alignment="CENTER" text="Ano de Fabricaçao:" GridPane.rowIndex="2" />
       <TextField fx:id="tfAnoFabricacao" GridPane.columnIndex="1" GridPane.rowIndex="2" />
       <PointLight color="CHARTREUSE" lightOn="true" />
       <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" GridPane.columnIndex="3" GridPane.rowIndex="3">

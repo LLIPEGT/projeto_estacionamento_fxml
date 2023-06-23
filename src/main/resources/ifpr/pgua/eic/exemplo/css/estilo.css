@@ -1,0 +1,19 @@
+.root{
+    -fx-background-image:url("images/images.jpeg")
+
+}
+
+.button{
+    -fx-background-color:rgb(0, 217, 255);
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-border-radius: 480px;
+}
+
+#btCadastrar:hover{
+    -fx-background-color:pink;
+    
+}
+
+#btVisualizar:hover{
+    -fx-background-color: red;
+}
